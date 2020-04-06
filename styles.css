@@ -58,9 +58,9 @@ body {
 
 .site-nav-link {
     background-image: linear-gradient(to right, #92FDF2, #92FDF2);
-    background-position: -2px 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 1px;
+    background-position: left -2px bottom 0;
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
     color: #BCCCDC;
     display: block;
     line-height: 14px;
@@ -74,7 +74,7 @@ body {
 
 .site-nav-link:focus,
 .site-nav-link:hover {
-    background-size: 100% 16px;
+    background-size: 1px 1rem;
     color: #102A43;
     outline: none;
 }
@@ -148,18 +148,18 @@ main {
 }
 
 .florida {
-    background: #B990FF;
+    background: #A368FC;
     color: #102A43;
     cursor: url("florida.png") 5 9, auto;
     padding: 0 0.3rem;
 }
 
 .web-developer {
-    background: linear-gradient(to right, #62F4EB, #B990FF);
+    background: linear-gradient(to right, #62F4EB, #A368FC);
     display: inline-block;
     font-size: 4rem;
     line-height: 4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     margin-top: 1rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -173,9 +173,9 @@ main {
 
 .term-link {
     background-image: linear-gradient(to right, #A368FC, #A368FC);
-    background-position: 0 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 1px;
+    background-position: left 0 bottom 0;
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
     color: inherit;
     display: inline-block;
     font-family: "Spectral", serif;
@@ -191,13 +191,13 @@ main {
 
 .term-link:focus,
 .term-link:hover {
-    background-size: 100% 1.3rem;
+    background-size: 1px 1.3rem;
     color: #F0F4F8;
     outline: none;
 }
 
 .boba {
-    background: linear-gradient(to right, #62F4EB, #B990FF);
+    background: linear-gradient(to right, #62F4EB, #A368FC);
     cursor: url("boba.png") 15 15, default;
     font-weight: 600;
     -webkit-background-clip: text;
@@ -207,9 +207,9 @@ main {
 .scroll-tip {
     animation: fadeInRotated 1s 1s ease-in-out forwards;
     background-image: linear-gradient(to top, #8719E0, #8719E0);
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 100% 0px;
+    background-position: left 0 top 0;
+    background-repeat: repeat-x;
+    background-size: 0px 0px;
     bottom: 0;
     color: #829AB1;
     left: 3rem;
@@ -229,7 +229,7 @@ main {
 
 .scroll-tip:focus,
 .scroll-tip:hover {
-    background-size: 100% 100%;
+    background-size: 1px 100%;
     color: #F0F4F8;
     outline: none;
 }
@@ -287,20 +287,35 @@ main {
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding-right: 2rem;
+    position: relative;
     z-index: 1;
+}
+
+.term-header-content {
+    max-width: 30rem;
 }
 
 .term-heading {
     font-size: 2rem;
+    font-weight: 400;
     line-height: 3rem;
 }
 
 .term-heading > em {
-    background: #A368FC;
+    background: linear-gradient(to right, #62F4EB, #A368FC);
     display: inline-block;
     font-family: "Spectral", serif;
     font-style: normal;
-    padding: 0 0.5rem;
+    font-weight: 600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chill {
+    background: linear-gradient(to top, #62F4EB, #A368FC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .term-footnote {
@@ -322,11 +337,40 @@ main {
 
 .term-content > p {
     line-height: 1.5;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+
+.term-content > p + .term-content-list {
+    margin-top: -2rem;
+}
+
+.term-content a {
+    background-image: linear-gradient(to right, #A368FC, #A368FC);
+    background-position: left 0 bottom 0;
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+    color: inherit;
+    padding: 0 0.1rem;
+    text-decoration: none;
+    transition:
+        background-size 0.2s ease-in-out,
+        color 0.2s ease-in-out;
+}
+
+.term-content a:focus,
+.term-content a:hover {
+    background-size: 1px 2rem;
+    color: #F0F4F8;
+    outline: none;
 }
 
 .term-content-lede {
     font-size: 1.5rem;
+}
+
+.netflix {
+    color: #EF4E4E;
+    font-weight: 600;
 }
 
 .term-content-list {
@@ -342,10 +386,10 @@ main {
 
 .term-list-item > a {
     background-image: linear-gradient(to top, #62F4EB, #62F4EB);
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 1px 100%;
-    color: #62F4EB;
+    background-position: left 0 bottom 0;
+    background-repeat: repeat-y;
+    background-size: 1px 1px;
+    color: #92FDF2;
     display: inline-block;
     padding: 0.15rem 0.5rem;
     text-decoration: none;
@@ -356,9 +400,55 @@ main {
 
 .term-list-item > a:focus,
 .term-list-item > a:hover {
-    background-size: 100% 100%;
+    background-size: 100% 1px;
     color: #102A43;
     outline: none;
+}
+
+.cta {
+    background: linear-gradient(to right, #62F4EB, #A368FC);
+    border: 1rem solid #243B53;
+    color: #102A43;
+    font-size: 1.2rem;
+    font-weight: bold;
+    grid-column: 1/3;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-top: 3rem;
+    max-width: 50rem;
+    padding: 3rem;
+    text-align: center;
+    z-index: 1;
+}
+
+.cta > a {
+    background-image: linear-gradient(to top, #F2EBFE, #F2EBFE);
+    background-position: left 0 bottom 0;
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+    color: inherit;
+    display: inline-block;
+    line-height: 1.5rem;
+    padding: 0 0.1rem;
+    text-decoration: none;
+    transition:
+        background-size 0.2s ease-in-out,
+        color 0.2s ease-in-out;
+}
+
+.cta > a:focus,
+.cta > a:hover {
+    background-size: 1px 1.5rem;
+    outline: none;
+}
+
+/* Footer */
+
+.site-footer {
+    background: linear-gradient(to right, #62F4EB, #A368FC);
+    margin-top: -0.4rem;
+    padding: 7rem 3rem;
+    position: relative;
 }
 
 @keyframes bounce {
