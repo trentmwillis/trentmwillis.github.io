@@ -83,6 +83,19 @@ body {
     outline: none;
 }
 
+@media (max-width: 425px) {
+    .site-header {
+        padding: 1.5rem;
+    }
+
+    .site-nav-item {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0.5rem 1rem;
+        text-align: center;
+    }
+}
+
 /* Content */
 
 main {
@@ -173,10 +186,11 @@ main {
     color: #D9E2EC;
     line-height: 1.5rem;
     margin-bottom: 2rem;
+    max-width: 22rem;
 }
 
 .term-link {
-    background-image: linear-gradient(to right, #A368FC, #A368FC);
+    background-image: linear-gradient(to right, #9446ED, #9446ED);
     background-position: left 0 bottom 0;
     background-repeat: repeat-x;
     background-size: 1px 1px;
@@ -210,7 +224,7 @@ main {
 
 .scroll-tip {
     animation: fadeInRotated 1s 1s ease-in-out forwards;
-    background-image: linear-gradient(to top, #8719E0, #8719E0);
+    background-image: linear-gradient(to top, #690CB0, #690CB0);
     background-position: left 0 top 0;
     background-repeat: repeat-x;
     background-size: 0px 0px;
@@ -247,7 +261,31 @@ main {
     animation: bounce 1.5s ease-in-out infinite;
 }
 
-/* Sections */
+@media (max-width: 425px) {
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+    .headline {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+
+    .web-developer {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    .terms {
+        max-width: 14rem;
+    }
+
+    .scroll-tip {
+        left: calc(50% - 12px);
+    }
+}
+
+/* Term Sections */
 
 .term {
     align-content: center;
@@ -496,6 +534,16 @@ main {
 .cta-text > a:hover {
     background-size: 1px 1.5rem;
     outline: none;
+}
+
+@media (max-width: 425px) {
+    .term {
+        grid-template-columns: 1fr;
+    }
+
+    .cta {
+        grid-column: 1/2;
+    }
 }
 
 /* Footer */
