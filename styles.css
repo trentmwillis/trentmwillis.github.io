@@ -417,6 +417,12 @@ main {
     outline: none;
 }
 
+@media (max-width: 425px) {
+    .cta {
+        padding: 2rem;
+    }
+}
+
 /* Developer */
 
 #developer.section {
@@ -467,7 +473,7 @@ main {
 }
 
 .developer-heading-content > em {
-    background: linear-gradient(to right, #62F4EB, #A368FC);
+    background: linear-gradient(to top, #62F4EB, #A368FC);
     background-clip: text;
     font-family: "Spectral", serif;
     font-style: normal;
