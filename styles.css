@@ -953,11 +953,79 @@ main {
 /* Footer */
 
 .site-footer {
-    background: url("heaxgon-texture.svg"), linear-gradient(to right, #62F4EB, #A368FC);
+    background-image: linear-gradient(to bottom, #9446ED, #102A43);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top: -0.4rem;
     padding: 7rem 3rem;
     position: relative;
 }
+
+.site-footer > .center {
+    align-self: center;
+    font-size: 1.5rem;
+    justify-self: center;
+    margin-bottom: 1rem;
+}
+
+.site-footer > .right {
+    align-items: flex-end;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.footer-logo {
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.footer-byline {
+    line-height: 1.5;
+    opacity: 0.8;
+}
+
+.footer-link {
+    background-image: linear-gradient(to right, #F0F4F8, #F0F4F8);
+    background-position: left -2px bottom 0;
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+    color: inherit;
+    display: block;
+    line-height: 14px;
+    margin-bottom: 1rem;
+    padding: 1px 2px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;;
+    transition:
+        background-size 0.2s ease-in-out,
+        color 0.2s ease-in-out;
+}
+
+.footer-link:focus,
+.footer-link:hover {
+    background-size: 1px 1rem;
+    color: #102A43;
+    outline: none;
+}
+
+@media (max-width: 425px) {
+    .site-footer {
+        grid-template-columns: 1fr;
+    }
+
+    .site-footer > .center {
+        margin: 2rem 0;
+    }
+}
+
+
+/* Animations */
 
 @keyframes bounce {
     0% { transform: translateY(0px); }
