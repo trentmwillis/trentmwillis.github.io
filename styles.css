@@ -131,7 +131,7 @@ main {
 }
 
 .hero::after {
-    /* Background pattern from Toptal Subtle Patterns */
+    /* Background pattern from Toptal Subtle Patterns: www.toptal.com/designers/subtlepatterns/broken-noise */
     background-image: url("./images/backgrounds/texture.png");
     bottom: 0;
     content: "";
@@ -306,7 +306,7 @@ main {
 }
 
 .section::after {
-    /* Background pattern from Toptal Subtle Patterns */
+    /* Background pattern from Toptal Subtle Patterns: www.toptal.com/designers/subtlepatterns/broken-noise */
     background-image: url("./images/backgrounds/texture.png");
     bottom: 0;
     content: "";
@@ -795,6 +795,7 @@ main {
 #metalhead.section::after {
     background-image:
         url("./images/svg/skull-texture.svg"),
+        /* Background pattern from Toptal Subtle Patterns: www.toptal.com/designers/subtlepatterns/broken-noise */
         url("./images/backgrounds/texture.png");
 }
 
