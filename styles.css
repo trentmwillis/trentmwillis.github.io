@@ -581,7 +581,7 @@ main {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 700px) {
     #developer.section {
         grid-template-columns: 1fr;
     }
@@ -614,7 +614,7 @@ main {
 
 .speaker-heading {
     margin: 0 auto;
-    max-width: 50rem;
+    max-width: 53rem;
     text-align: center;
 }
 
@@ -689,6 +689,11 @@ main {
     z-index: 1;
 }
 
+.talks-list.wide {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 60rem;
+}
+
 .talk {
     background-image: linear-gradient(to right, #690CB0, #690CB0);
     background-position: left -1px bottom 0;
@@ -758,17 +763,6 @@ main {
 }
 
 @media (max-width: 768px) {
-    #speaker.section {
-        grid-template-columns: 1fr 1fr;
-        padding-bottom: 13rem
-    }
-}
-
-@media (max-width: 425px) {
-    .speaker-heading {
-        text-align: left;
-    }
-
     .speaker-content {
         grid-template-columns: 1fr;
     }
@@ -781,7 +775,18 @@ main {
         margin-bottom: 5rem;
     }
 
-    .talks-list {
+    .talks-list.wide {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .speaker-heading {
+        text-align: left;
+    }
+
+    .talks-list,
+    .talks-list.wide {
         grid-template-columns: 1fr;
     }
 }
