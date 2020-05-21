@@ -98,8 +98,16 @@ body {
         color 0.2s ease-in-out;
 }
 
+.site-nav-link.is-active {
+    background-image: linear-gradient(to right, #A368FC, #A368FC);
+    background-size: 1px 1rem;
+    color: #102A43;
+}
+
 .site-nav-link:focus,
-.site-nav-link:hover {
+.site-nav-link:hover,
+.site-nav-link.is-active:focus {
+    background-image: linear-gradient(to right, #92FDF2, #92FDF2);
     background-size: 1px 1rem;
     color: #102A43;
     outline: none;
