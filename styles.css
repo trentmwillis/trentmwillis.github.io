@@ -682,10 +682,14 @@ main {
     justify-content: space-between;
 }
 
+#speaker.section.last {
+    padding-top: var(--size-11);
+}
+
 .speaker-header {
     background-position: center center;
     margin-bottom: var(--size-9);
-    padding: var(--size-4);
+    padding: 0 var(--size-4);
     position: relative;
 }
 
