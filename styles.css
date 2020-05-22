@@ -222,6 +222,7 @@ main {
 .headline {
     font-size: var(--font-7);
     line-height: 1.5;
+    margin-bottom: var(--size-5);
 }
 
 .california {
@@ -244,8 +245,6 @@ main {
     display: inline-block;
     font-size: var(--font-10);
     line-height: 1;
-    margin-bottom: var(--size-6);
-    margin-top: var(--size-4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -264,11 +263,9 @@ main {
     background-size: 1px 1px;
     color: inherit;
     display: inline-block;
-    font-family: "Spectral", serif;
-    font-weight: 600;
     line-height: 1.3rem;
-    margin-right: 0.1rem;
-    padding: 0 0.1rem;
+    margin-right: 1px;
+    padding: 0 1px;
     text-decoration: none;
     transition:
         background-size 0.2s ease-in-out,
