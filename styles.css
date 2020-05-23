@@ -689,7 +689,6 @@ main {
 .speaker-header {
     background-position: center center;
     margin-bottom: var(--size-9);
-    padding: 0 var(--size-4);
     position: relative;
 }
 
@@ -718,6 +717,7 @@ main {
 }
 
 .speaker-content {
+    column-gap: var(--size-5);
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: var(--size-10);
@@ -742,7 +742,6 @@ main {
     line-height: 1.5;
     margin: 0 auto;
     max-width: var(--size-14);
-    padding: var(--size-4);
     z-index: 1;
 }
 
@@ -908,7 +907,6 @@ main {
 
 .metal-header {
     background-position: center center;
-    padding: 0 var(--size-4);
     position: relative;
 }
 
@@ -1086,7 +1084,7 @@ main {
     background-image: linear-gradient(to bottom, #9446ED, #102A43);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: var(--size-9) var(--size-8);
+    padding: var(--size-9) var(--size-7);
     position: relative;
 }
 
@@ -1154,7 +1152,6 @@ main {
 @media (max-width: 600px) {
     .site-footer {
         grid-template-columns: 1fr;
-        padding: var(--size-9) var(--size-7);
     }
 
     .site-footer > .center {
