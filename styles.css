@@ -348,6 +348,8 @@ main {
 
 .scroll-arrow {
     display: inline-block;
+    left: 2px;
+    position: relative;
 }
 
 .scroll-tip:focus > .scroll-arrow,
