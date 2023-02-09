@@ -225,13 +225,6 @@ main {
     margin-bottom: var(--size-5);
 }
 
-.california {
-    background: #62F4EB;
-    color: #102A43;
-    cursor: url("./images/emoji/california.png") 5 9, auto;
-    padding: 0 var(--size-1);
-}
-
 .florida {
     background: #A368FC;
     color: #102A43;
