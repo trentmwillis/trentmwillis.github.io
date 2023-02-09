@@ -1035,6 +1035,7 @@ main {
 .genre {
     opacity: 0;
     position: relative;
+    text-align: center;
     transition: opacity 0.2s ease-in-out;
     z-index: 2;
 }
