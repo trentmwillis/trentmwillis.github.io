@@ -752,6 +752,13 @@ main {
     z-index: 1;
 }
 
+.no-talks {
+    color: #627D98;
+    font-size: var(--font-5);
+    margin-bottom: var(--size-7);
+    text-align: center;
+}
+
 .talks-list {
     display: grid;
     grid-gap: var(--size-7);
