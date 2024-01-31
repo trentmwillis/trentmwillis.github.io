@@ -26,7 +26,7 @@
         <meta property="twitter:creator" content="@trentmwillis">
 
         <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22%3E%3Ctext%20y=%22.9em%22%20font-size=%2290%22%3E%F0%9F%A4%98%F0%9F%8F%BC%3C/text%3E%3C/svg%3E">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Spectral:wght@600&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Modak&family=Karla:wght@400;700&display=swap">
         <link rel="stylesheet" href="../styles.css">
         <script>
             document.addEventListener('DOMContentLoaded', () => document.body.classList.remove('preload'));
@@ -36,16 +36,11 @@
     <body class="preload">
         <header id="top" class="site-header">
             <h1 class="logo">
-                <a href="/#top"><strong>Trent</strong> Willis</a>
+                <a href="/#top">T<span class="remove-letter-spacing">W</span></a>
             </h1>
 
             <nav>
                 <ul class="site-nav-list">
-                    <li class="site-nav-item">
-                        <a class="site-nav-link" href="https://trentwillis.com/2022-music">
-                            2022 Musi<span class="remove-letter-spacing">c</span>
-                        </a>
-                    </li>
                     <li class="site-nav-item">
                         <a class="site-nav-link is-active" href="/talks#top">
                             Talk<span class="remove-letter-spacing">s</span>
@@ -56,257 +51,371 @@
         </header>
 
         <main>
-            <section class="section last" id="speaker">
-                <header class="speaker-header">
-                    <h3 class="speaker-heading">
-                        <span class="speaker-heading-content">
-                            Talks on <em>Web</em> <em>Development</em>, <em>JavaScript</em>, and <em>Team</em> <em>Culture</em>.
-                        </span>
-                    </h3>
+            <section class="section">
+                <header class="section-header">
+                    <h2 class="section-heading">
+                        Talks
+                    </h2>
                 </header>
 
-                <div class="speaker-content">
-                    <p class="speaker-content-lede">I enjoy <span class="chill">public</span> <span class="chill">speaking</span> (weird, right?) and the opportunity to share my knowledge and experience with others.<br><br>I've given talks <span class="chill">all</span> <span class="chill">over</span> <span class="chill">the</span> 🌎 on a variety of topics. I speak about ideas I find interesting and beneficial in hopes that others will too.</p>
+                <div class="section-content">
+                    <p class="lede">I've given talks around the world on an array of topics related to web development, JavaScript, and team culture.</p>
 
-                    <div class="cta">
-                        <p class="cta-text">I love getting the chance to connect with other developers in person, so if you're interested in having me speak at your event, then <a href="mailto:me@trentwillis.com?subject=🎙%20speaking%20opportunity" target="_blank" rel="noreferrer">send me an email</a>.</p>
-                    </div>
+                    <p>I enjoy public speaking for the opportunity it gives me to share my knowledge and experience with others. I speak about ideas that I have benefitted from in hopes that they will benefit others as well. The chance to travel the world and meet other developers is a big plus too.</p>
+
+                    <p>If you're interested in having me speak at your event, then <a href="mailto:me@trentwillis.com?subject=🎙%20speaking%20opportunity" target="_blank" rel="noreferrer">send me an email</a>.</p>
+
+                    <h3 class="section-sub-heading">Upcoming talks</h3>
+
+                    <p class="faded">None currently scheduled.</p>
+
+                    <h3 class="section-sub-heading">Past talks</h3>
+
+                    <ul class="talks-list">
+                        <li class="talk">
+                            <a href="https://noti.st/trentmwillis/0qDOfG/testing-your-testing-strategy" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2023-10-05">Oct 5, 2023</time>
+                                    at
+                                    <span class="talk-conf">revo.js</span>
+                                </div>
+                                <p class="talk-title">Testing Your Testing Strategy</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://noti.st/trentmwillis/FhL901/micro-frontends-under-the-microscope" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2023-06-16">Jun 16, 2023</time>
+                                    at
+                                    <span class="talk-conf">React Norway</span>
+                                </div>
+                                <p class="talk-title">Micro-Frontends Under The Microscope</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://noti.st/trentmwillis/0dCUhN/the-app-changing-magic-and-joy-of-web-apis" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2023-04-28">Apr 28, 2023</time>
+                                    at
+                                    <span class="talk-conf">HalfStack Charlotte</span>
+                                </div>
+                                <p class="talk-title">The app-changing magic (and joy) of Web APIs</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://noti.st/trentmwillis/1csylF/getting-out-of-our-users-way-less-jank-with-web-workers" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2020-04-01">Apr 1, 2020</time>
+                                    at
+                                    <span class="talk-conf">#PerfMatters</span>
+                                </div>
+                                <p class="talk-title">Getting Out Of Our Users&#x2019 Way: Less Jank With Web Workers</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://noti.st/trentmwillis/y3HyKW/how-to-teach-an-old-dev-new-tech-learning-react-as-a-senior-developer" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2020-02-28">Feb 28, 2020</time>
+                                    at
+                                    <span class="talk-conf">ReactConf AU</span>
+                                </div>
+                                <p class="talk-title">How To Teach An Old Dev New Tech</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://noti.st/trentmwillis/rAapIz/going-beyond-progressive-web-apps-with-service-workers" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2019-10-22">Oct 22, 2019</time>
+                                    at
+                                    <span class="talk-conf">ThunderPlains</span>
+                                </div>
+                                <p class="talk-title">Going Beyond Progressive Web Apps With Service Workers</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://noti.st/trentmwillis/Bf9KHj/generating-art-everywhere-and-fast" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2019-08-09">Aug 9, 2019</time>
+                                    at
+                                    <span class="talk-conf">NEJS Conf</span>
+                                </div>
+                                <p class="talk-title">Generating Art Everywhere and Fast!</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://noti.st/trentmwillis/9bJa4T/internal-things-building-internal-tools-at-netflix" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2019-05-29">May 29, 2019</time>
+                                    at
+                                    <span>Codesmith / SoCal ReactJS</span>
+                                </div>
+                                <p class="talk-title">Internal Things: Building Internal Tools at Netflix</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://noti.st/trentmwillis/okckjs/creating-your-own-image-format-in-the-browser" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2019-05-03">May 3, 2019</time>
+                                    at
+                                    <span>CityJS</span>
+                                </div>
+                                <p class="talk-title">Creating Your Own Image Format In The Browser</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://noti.st/trentmwillis/RxTcdy/weaving-webs-of-workers" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2018-02-22">Mar 11, 2019</time>
+                                    at
+                                    <span>JS Kongress</span>
+                                </div>
+                                <p class="talk-title">Weaving Webs of Workers</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://noti.st/trentmwillis/euxnTO/fun-with-service-workers" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2018-12-01">Dec 1, 2018</time>
+                                    at
+                                    <span>Codemotion Madrid</span>
+                                </div>
+                                <p class="talk-title">Fun with Service Workers</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://noti.st/trentmwillis/Be4Zxm/fun-with-service-workers" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2018-11-29">Nov 29, 2018</time>
+                                    at
+                                    <span>Codemotion Milan</span>
+                                </div>
+                                <p class="talk-title">Fun with Service Workers</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://noti.st/trentmwillis/FbXtgN/creating-your-own-image-format-in-the-browser" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2018-11-16">Nov 16, 2018</time>
+                                    at
+                                    <span>JSConf Colombia</span>
+                                </div>
+                                <p class="talk-title">Creating Your Own Image Format in the Browser</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://noti.st/trentmwillis/wls5J4/powerful-automation-with-the-chrome-devtools-protocol" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2018-09-06">Sep 6, 2018</time>
+                                    at
+                                    <span>Nordic.js</span>
+                                </div>
+                                <p class="talk-title">Powerful Automation with the Chrome DevTools Protocol</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://www.nodesummit.com/prior-video/node-summit-2018-its-dangerous-to-go-alone-take-this-team-trent-willis/" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2018-07-23">Jul 23, 2018</time>
+                                    at
+                                    <span>Node Summit</span>
+                                </div>
+                                <p class="talk-title">It's Dangerous To Go Alone! Take This Team</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://conferences.oreilly.com/fluent/fl-ca/public/schedule/detail/65218" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2018-02-22">Jun 13, 2018</time>
+                                    at
+                                    <span>FluentConf</span>
+                                </div>
+                                <p class="talk-title">Caring For Your Fellow Developers</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://youtu.be/2aPjsb-kIks" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2018-06-01">Jun 1, 2018</time>
+                                    at
+                                    <span>CSSconf EU</span>
+                                </div>
+                                <p class="talk-title">It’s Dangerous To Go Alone! Take This Team</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://youtu.be/4PYBE-c53-M" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2018-05-09">May 9, 2018</time>
+                                    at
+                                    <span>NDC Minnesota</span>
+                                </div>
+                                <p class="talk-title">It’s Dangerous To Go Alone! Take This Team</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://youtu.be/4PYBE-c53-M" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2018-02-22">Feb 22, 2018</time>
+                                    at
+                                    <span>Assert(js)</span>
+                                </div>
+                                <p class="talk-title">Working Well: The Future of JavaScript Testing</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://youtu.be/penRx32QlqU" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2018-02-13">Feb 13, 2018</time>
+                                    at
+                                    <span>Forward JS</span>
+                                </div>
+                                <p class="talk-title">Caring For Your Fellow Developers</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://youtu.be/UrKUbaCJ938" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2017-12-01">Dec 1, 2017</time>
+                                    at
+                                    <span>dotJS</span>
+                                </div>
+                                <p class="talk-title">Working Well: The Future of Web Testing</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://youtu.be/PLnwGHhpLfM" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2017-10-26">Oct 26, 2017</time>
+                                    at
+                                    <span>JSConf Budapest</span>
+                                </div>
+                                <p class="talk-title">Caring For Your Fellow Developers</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://youtu.be/kB-3vvtdLxw" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2017-10-11">Oct 11, 2017</time>
+                                    at
+                                    <span>GitHub Universe</span>
+                                </div>
+                                <p class="talk-title">Caring For Your Fellow Developers</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://youtu.be/8SzNe0gy_mY" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2017-03-29">Mar 29, 2017</time>
+                                    at
+                                    <span>EmberConf</span>
+                                </div>
+                                <p class="talk-title">What's New In QUnit?</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://emberweekend.com/episodes/breath-of-the-tomster" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2017-03-19">Mar 19, 2017</time>
+                                    at
+                                    <span>Ember Weekend</span>
+                                </div>
+                                <p class="talk-title">Breath of the Tomster</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://youtu.be/7ZP9-AIvrBU" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2017-01-27">Jan 27, 2017</time>
+                                    at
+                                    <span>So Ember</span>
+                                </div>
+                                <p class="talk-title">Lazy Loading Engines: Anything But Lazy</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://youtu.be/XkpIvAp0S9w" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2016-11-29">Nov 29, 2016</time>
+                                    at
+                                    <span>Ember.js SF Meetup</span>
+                                </div>
+                                <p class="talk-title">Lazy Engines</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://youtu.be/GIa1ICukuMI" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2016-06-29">Jun 29, 2016</time>
+                                    at
+                                    <span>Wicked Good Ember</span>
+                                </div>
+                                <p class="talk-title">Maintaining Your Tests At Scale</p>
+                            </a>
+                        </li>
+
+                        <li class="talk">
+                            <a href="https://youtu.be/SbgHCeuV7V8" target="_blank" rel="noreferrer" class="talk-link">
+                                <div class="talk-meta">
+                                    <time class="talk-date" date="2016-05-18">May 18, 2016</time>
+                                    at
+                                    <span>Silicon Valley Ember.js Meetup</span>
+                                </div>
+                                <p class="talk-title">Ember Engines At LinkedIn</p>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p class="faded">That's all.</p>
                 </div>
-
-                <p class="talks-lead-in">Upcoming Talks</p>
-
-                <p class="no-talks">None currently scheduled.</p>
-
-                <p class="talks-lead-in">Past Talks</p>
-
-                <ul class="talks-list wide no-bottom">
-                    <li class="talk">
-                        <a href="https://noti.st/trentmwillis/0qDOfG/testing-your-testing-strategy" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Testing Your Testing Strategy</p>
-                            <p class="conf-name">revo.js</p>
-                            <time class="talk-date" date="2023-10-05">Oct 5, 2023</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://noti.st/trentmwillis/FhL901/micro-frontends-under-the-microscope" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Micro-Frontends Under The Microscope</p>
-                            <p class="conf-name">React Norway</p>
-                            <time class="talk-date" date="2023-06-16">Jun 16, 2023</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://noti.st/trentmwillis/0dCUhN/the-app-changing-magic-and-joy-of-web-apis" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">The app-changing magic (and joy) of Web APIs</p>
-                            <p class="conf-name">HalfStack Charlotte</p>
-                            <time class="talk-date" date="2023-04-28">Apr 28, 2023</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://noti.st/trentmwillis/1csylF/getting-out-of-our-users-way-less-jank-with-web-workers" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Getting Out Of Our Users&#x2019 Way: Less Jank With Web Workers</p>
-                            <p class="conf-name">#PerfMatters</p>
-                            <time class="talk-date" date="2020-04-01">Apr 1, 2020</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://noti.st/trentmwillis/y3HyKW/how-to-teach-an-old-dev-new-tech-learning-react-as-a-senior-developer" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">How To Teach An Old Dev New Tech</p>
-                            <p class="conf-name">ReactConf AU</p>
-                            <time class="talk-date" date="2020-02-28">Feb 28, 2020</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://noti.st/trentmwillis/rAapIz/going-beyond-progressive-web-apps-with-service-workers" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Going Beyond Progressive Web Apps With Service Workers</p>
-                            <p class="conf-name">ThunderPlains</p>
-                            <time class="talk-date" date="2019-10-22">Oct 22, 2019</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://noti.st/trentmwillis/Bf9KHj/generating-art-everywhere-and-fast" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Generating Art Everywhere and Fast!</p>
-                            <p class="conf-name">NEJS Conf</p>
-                            <time class="talk-date" date="2019-08-09">Aug 9, 2019</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://noti.st/trentmwillis/9bJa4T/internal-things-building-internal-tools-at-netflix" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Internal Things: Building Internal Tools at Netflix</p>
-                            <p class="conf-name">Codesmith / SoCal ReactJS</p>
-                            <time class="talk-date" date="2019-05-29">May 29, 2019</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://noti.st/trentmwillis/okckjs/creating-your-own-image-format-in-the-browser" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Creating Your Own Image Format In The Browser</p>
-                            <p class="conf-name">CityJS</p>
-                            <time class="talk-date" date="2019-05-03">May 3, 2019</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://noti.st/trentmwillis/RxTcdy/weaving-webs-of-workers" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Weaving Webs of Workers</p>
-                            <p class="conf-name">JS Kongress</p>
-                            <time class="talk-date" date="2018-02-22">Mar 11, 2019</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://noti.st/trentmwillis/euxnTO/fun-with-service-workers" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Fun with Service Workers</p>
-                            <p class="conf-name">Codemotion Madrid</p>
-                            <time class="talk-date" date="2018-12-01">Dec 1, 2018</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://noti.st/trentmwillis/Be4Zxm/fun-with-service-workers" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Fun with Service Workers</p>
-                            <p class="conf-name">Codemotion Milan</p>
-                            <time class="talk-date" date="2018-11-29">Nov 29, 2018</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://noti.st/trentmwillis/FbXtgN/creating-your-own-image-format-in-the-browser" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Creating Your Own Image Format in the Browser</p>
-                            <p class="conf-name">JSConf Colombia</p>
-                            <time class="talk-date" date="2018-11-16">Nov 16, 2018</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://noti.st/trentmwillis/wls5J4/powerful-automation-with-the-chrome-devtools-protocol" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Powerful Automation with the Chrome DevTools Protocol</p>
-                            <p class="conf-name">Nordic.js</p>
-                            <time class="talk-date" date="2018-09-06">Sep 6, 2018</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://www.nodesummit.com/prior-video/node-summit-2018-its-dangerous-to-go-alone-take-this-team-trent-willis/" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">It's Dangerous To Go Alone! Take This Team</p>
-                            <p class="conf-name">Node Summit</p>
-                            <time class="talk-date" date="2018-07-23">Jul 23, 2018</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://conferences.oreilly.com/fluent/fl-ca/public/schedule/detail/65218" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Caring For Your Fellow Developers</p>
-                            <p class="conf-name">FluentConf</p>
-                            <time class="talk-date" date="2018-02-22">Jun 13, 2018</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://youtu.be/2aPjsb-kIks" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">It’s Dangerous To Go Alone! Take This Team</p>
-                            <p class="conf-name">CSSconf EU</p>
-                            <time class="talk-date" date="2018-06-01">Jun 1, 2018</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://youtu.be/4PYBE-c53-M" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">It’s Dangerous To Go Alone! Take This Team</p>
-                            <p class="conf-name">NDC Minnesota</p>
-                            <time class="talk-date" date="2018-05-09">May 9, 2018</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://youtu.be/4PYBE-c53-M" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Working Well: The Future of JavaScript Testing</p>
-                            <p class="conf-name">Assert(js)</p>
-                            <time class="talk-date" date="2018-02-22">Feb 22, 2018</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://youtu.be/penRx32QlqU" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Caring For Your Fellow Developers</p>
-                            <p class="conf-name">Forward JS</p>
-                            <time class="talk-date" date="2018-02-13">Feb 13, 2018</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://youtu.be/UrKUbaCJ938" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Working Well: The Future of Web Testing</p>
-                            <p class="conf-name">dotJS</p>
-                            <time class="talk-date" date="2017-12-01">Dec 1, 2017</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://youtu.be/PLnwGHhpLfM" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Caring For Your Fellow Developers</p>
-                            <p class="conf-name">JSConf Budapest</p>
-                            <time class="talk-date" date="2017-10-26">Oct 26, 2017</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://youtu.be/kB-3vvtdLxw" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Caring For Your Fellow Developers</p>
-                            <p class="conf-name">GitHub Universe</p>
-                            <time class="talk-date" date="2017-10-11">Oct 11, 2017</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://youtu.be/8SzNe0gy_mY" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">What's New In QUnit?</p>
-                            <p class="conf-name">EmberConf</p>
-                            <time class="talk-date" date="2017-03-29">Mar 29, 2017</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://emberweekend.com/episodes/breath-of-the-tomster" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Breath of the Tomster</p>
-                            <p class="conf-name">Ember Weekend</p>
-                            <time class="talk-date" date="2017-03-19">Mar 19, 2017</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://youtu.be/7ZP9-AIvrBU" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Lazy Loading Engines: Anything But Lazy</p>
-                            <p class="conf-name">So Ember</p>
-                            <time class="talk-date" date="2017-01-27">Jan 27, 2017</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://youtu.be/XkpIvAp0S9w" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Lazy Engines</p>
-                            <p class="conf-name">Ember.js SF Meetup</p>
-                            <time class="talk-date" date="2016-11-29">Nov 29, 2016</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://youtu.be/GIa1ICukuMI" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Maintaining Your Tests At Scale</p>
-                            <p class="conf-name">Wicked Good Ember</p>
-                            <time class="talk-date" date="2016-06-29">Jun 29, 2016</time>
-                        </a>
-                    </li>
-                    <li class="talk">
-                        <a href="https://youtu.be/SbgHCeuV7V8" target="_blank" rel="noreferrer" class="talk-link">
-                            <p class="talk-title">Ember Engines At LinkedIn</p>
-                            <p class="conf-name">Silicon Valley Ember.js Meetup</p>
-                            <time class="talk-date" date="2016-05-18">May 18, 2016</time>
-                        </a>
-                    </li>
-                </ul>
             </section>
-
-            <footer class="site-footer">
-                <div class="left">
-                    <p class="footer-logo"><strong>Trent</strong> Willis</p>
-                    <p class="footer-byline">
-                        A Florida-based<br>
-                        Staff+ Software Engineer<br>
-                        and Web Developer.
-                    </p>
-                </div>
-
-                <div class="center">
-                    🤘🏼
-                </div>
-
-                <nav class="right">
-                    <a class="footer-link" href="/">Home</a>
-                    <a class="footer-link" href="https://www.linkedin.com/in/trentmwillis" target="_blank" rel="noreferrer">LinkedIn</a>
-                    <a class="footer-link" href="https://github.com/trentmwillis/trentmwillis.github.io" target="_blank" rel="noreferrer">Source Code</a>
-                    <a class="footer-link" href="#top">Back to top</a>
-                </nav>
-            </footer>
         </main>
+
+        <footer class="site-footer">
+            <div class="left">
+                <p class="footer-logo"><strong>Trent</strong> Willis</p>
+                <p class="footer-byline">
+                    A Florida-based<br>
+                    Staff+ Software Engineer<br>
+                    and Web Developer
+                </p>
+            </div>
+
+            <div class="center">
+                🤘🏼
+            </div>
+
+            <nav class="right">
+                <a class="footer-link" href="/">Home</a>
+                <a class="footer-link" href="https://www.linkedin.com/in/trentmwillis" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a class="footer-link" href="https://github.com/trentmwillis/trentmwillis.github.io" target="_blank" rel="noreferrer">Source Code</a>
+            </nav>
+        </footer>
     </body>
 </html>
